@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'it-bachelors-thomasmore-geel',
+  displayName: 'eduhub',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/it-bachelors-thomasmore-geel',
+  coverageDirectory: '../../coverage/apps/eduhub',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

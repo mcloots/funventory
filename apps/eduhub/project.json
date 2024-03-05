@@ -1,25 +1,22 @@
 {
-  "name": "it-bachelors-thomasmore-geel",
+  "name": "eduhub",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "mcloots",
-  "sourceRoot": "apps/it-bachelors-thomasmore-geel/src",
+  "sourceRoot": "apps/eduhub/src",
   "tags": [],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/it-bachelors-thomasmore-geel",
-        "index": "apps/it-bachelors-thomasmore-geel/src/index.html",
-        "browser": "apps/it-bachelors-thomasmore-geel/src/main.ts",
+        "outputPath": "dist/apps/eduhub",
+        "index": "apps/eduhub/src/index.html",
+        "browser": "apps/eduhub/src/main.ts",
         "polyfills": ["zone.js"],
-        "tsConfig": "apps/it-bachelors-thomasmore-geel/tsconfig.app.json",
-        "assets": [
-          "apps/it-bachelors-thomasmore-geel/src/favicon.ico",
-          "apps/it-bachelors-thomasmore-geel/src/assets"
-        ],
-        "styles": ["apps/it-bachelors-thomasmore-geel/src/styles.css"],
+        "tsConfig": "apps/eduhub/tsconfig.app.json",
+        "assets": ["apps/eduhub/src/favicon.ico", "apps/eduhub/src/assets"],
+        "styles": ["apps/eduhub/src/styles.css"],
         "scripts": []
       },
       "configurations": {
@@ -50,10 +47,10 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "buildTarget": "it-bachelors-thomasmore-geel:build:production"
+          "buildTarget": "eduhub:build:production"
         },
         "development": {
-          "buildTarget": "it-bachelors-thomasmore-geel:build:development"
+          "buildTarget": "eduhub:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -61,7 +58,7 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "buildTarget": "it-bachelors-thomasmore-geel:build"
+        "buildTarget": "eduhub:build"
       }
     }
   }

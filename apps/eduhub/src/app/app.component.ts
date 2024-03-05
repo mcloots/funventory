@@ -14,6 +14,6 @@ export class AppComponent implements OnInit {
   title = 'it-bachelors-thomasmore-geel';
 
   ngOnInit(): void {
-      initFlowbite();
+    initFlowbite();
   }
 }
