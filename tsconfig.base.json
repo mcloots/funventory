@@ -15,6 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@mcloots/eduhub-frontend": [
+        "libs/eduhub-lib/eduhub-frontend/src/index.ts"
+      ],
+      "@mcloots/eduhub-lib": ["libs/eduhub-lib/src/index.ts"],
       "@mcloots/ui": ["libs/ui/src/index.ts"]
     }
   },
