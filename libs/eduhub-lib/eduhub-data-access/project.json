@@ -1,0 +1,9 @@
+{
+  "name": "eduhub-data-access",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/eduhub-lib/eduhub-data-access/src",
+  "prefix": "mcloots",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}

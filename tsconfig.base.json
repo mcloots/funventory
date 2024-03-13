@@ -15,10 +15,15 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@mcloots/eduhub-data-access": [
+        "libs/eduhub-lib/eduhub-data-access/src/index.ts"
+      ],
       "@mcloots/eduhub-frontend": [
         "libs/eduhub-lib/eduhub-frontend/src/index.ts"
       ],
       "@mcloots/eduhub-lib": ["libs/eduhub-lib/src/index.ts"],
+      "@mcloots/eduhub-shared": ["libs/eduhub-lib/eduhub-shared/src/index.ts"],
+      "@mcloots/eduhub-types": ["libs/eduhub-lib/eduhub-types/src/index.ts"],
       "@mcloots/ui": ["libs/ui/src/index.ts"]
     }
   },
