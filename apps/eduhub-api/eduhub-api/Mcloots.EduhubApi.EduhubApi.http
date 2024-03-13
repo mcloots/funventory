@@ -1,0 +1,6 @@
+@Mcloots.EduhubApi.EduhubApi_HostAddress = http://localhost:5259
+
+GET {{Mcloots.EduhubApi.EduhubApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

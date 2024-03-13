@@ -2,7 +2,9 @@
   "name": "@mcloots/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "nx g @nx-dotnet/core:restore"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.1.0",
@@ -29,6 +31,7 @@
     "@angular/cli": "~17.1.0",
     "@angular/compiler-cli": "~17.1.0",
     "@angular/language-service": "~17.1.0",
+    "@nx-dotnet/core": "^2.2.0",
     "@nx/devkit": "18.0.7",
     "@nx/eslint": "18.0.7",
     "@nx/eslint-plugin": "18.0.7",
