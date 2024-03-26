@@ -1,3 +1,4 @@
+using EduhubDotnet.Application;
 using EduhubDotnet.Persistence;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,7 +9,7 @@ namespace Eduhub.API
         public static WebApplication ConfigureServices(
             this WebApplicationBuilder builder)
         {
-            //builder.Services.AddApplicationServices();
+            builder.Services.AddApplicationServices();
             //builder.Services.AddInfrastructureServices(builder.Configuration);
             builder.Services.AddPersistenceServices(builder.Configuration);
 
