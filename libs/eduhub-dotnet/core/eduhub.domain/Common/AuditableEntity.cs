@@ -1,4 +1,4 @@
-namespace EduHub.Domain.Common
+namespace EduhubDotnet.Domain.Common
 {
     public class AuditableEntity //Logging support for tracking purposes
     {

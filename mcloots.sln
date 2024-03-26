@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mcloots.EduhubApi.EduhubApi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mcloots.EduhubApi.EduhubApi.Test", "apps\eduhub-api\eduhub-api-test\Mcloots.EduhubApi.EduhubApi.Test.csproj", "{C92AFC7D-DB5B-4938-85CE-942FC8DAA45B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mcloots.EduhubDotnet.Core.EduhubApplication", "libs\eduhub-dotnet\core\eduhub.application\Mcloots.EduhubDotnet.Core.EduhubApplication.csproj", "{1BF85115-4174-473E-8FCE-6A6205E024DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduhubDotnet.Application", "libs\eduhub-dotnet\core\eduhub.application\EduhubDotnet.Application.csproj", "{1BF85115-4174-473E-8FCE-6A6205E024DC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eduhub-dotnet", "eduhub-dotnet", "{7B6DBEAE-A9B0-4832-9610-B8D9BC2A6AD8}"
 EndProject
@@ -19,11 +19,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{5EA34EE5-1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{DA78DEC2-2979-4170-A2D1-AAA6519D5633}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mcloots.EduhubDotnet.Core.EduhubDomain", "libs\eduhub-dotnet\core\eduhub.domain\Mcloots.EduhubDotnet.Core.EduhubDomain.csproj", "{3F05F5BE-DB5A-4D57-A05A-AA1E2221B893}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduhubDotnet.Domain", "libs\eduhub-dotnet\core\eduhub.domain\EduhubDotnet.Domain.csproj", "{3F05F5BE-DB5A-4D57-A05A-AA1E2221B893}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mcloots.EduhubDotnet.Infrastructure.EduhubInfrastructure", "libs\eduhub-dotnet\infrastructure\eduhub.infrastructure\Mcloots.EduhubDotnet.Infrastructure.EduhubInfrastructure.csproj", "{A3EA3B9F-F0C3-4DAA-8217-931B0EA43597}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduhubDotnet.Infrastructure", "libs\eduhub-dotnet\infrastructure\eduhub.infrastructure\EduhubDotnet.Infrastructure.csproj", "{A3EA3B9F-F0C3-4DAA-8217-931B0EA43597}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mcloots.EduhubDotnet.Infrastructure.EduhubPersistence", "libs\eduhub-dotnet\infrastructure\eduhub.persistence\Mcloots.EduhubDotnet.Infrastructure.EduhubPersistence.csproj", "{8B2B4F7B-D127-4768-BD77-172F3380E0BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduhubDotnet.Persistence", "libs\eduhub-dotnet\infrastructure\eduhub.persistence\EduhubDotnet.Persistence.csproj", "{8B2B4F7B-D127-4768-BD77-172F3380E0BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
