@@ -10,18 +10,18 @@ using System.Threading.Tasks;
 
 namespace EduhubDotnet.Application.Features.Programmes.Queries.GetProgrammesList
 {
-  public class GetProgrammeListQueryHandler : IRequestHandler<GetProgrammeListQuery, List<ProgrammeListVm>>
+  public class GetProgrammesListQueryHandler : IRequestHandler<GetProgrammesListQuery, List<ProgrammeListVm>>
   {
     private readonly IAsyncRepository<Programme> _programmeRepository;
     private readonly IMapper _mapper;
 
-    public GetProgrammeListQueryHandler(IMapper mapper, IAsyncRepository<Programme> programmeRepository)
+    public GetProgrammesListQueryHandler(IMapper mapper, IAsyncRepository<Programme> programmeRepository)
     {
       _mapper = mapper;
       _programmeRepository = programmeRepository;
     }
 
-    public async Task<List<ProgrammeListVm>> Handle(GetProgrammeListQuery request, CancellationToken cancellationToken)
+    public async Task<List<ProgrammeListVm>> Handle(GetProgrammesListQuery request, CancellationToken cancellationToken)
     {
       var allEvents = (await _programmeRepository.ListAllAsync()).OrderBy(x => x.Name);
       return _mapper.Map<List<ProgrammeListVm>>(allEvents);

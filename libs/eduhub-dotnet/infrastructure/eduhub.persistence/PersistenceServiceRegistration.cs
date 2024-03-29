@@ -17,6 +17,7 @@ namespace EduhubDotnet.Persistence
             services.AddScoped(typeof(IAsyncRepository<>), typeof(BaseRepository<>));
 
             services.AddScoped<IProgrammeRepository, ProgrammeRepository>();
+            services.AddScoped<IProgrammeGroupRepository, ProgrammeGroupRepository>();
 
             return services;
         }

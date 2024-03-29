@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EduhubDotnet.Application.Features.Programmes.Queries.GetProgrammesList
 {
-  public class GetProgrammeListQuery : IRequest<List<ProgrammeListVm>>
+  public class GetProgrammesListQuery : IRequest<List<ProgrammeListVm>>
   {
   }
 }

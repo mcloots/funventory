@@ -2,7 +2,7 @@ using EduhubDotnet.Application.Features.Programmes.Queries.GetProgrammesList;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Mcloots.EduhubApi.EduhubApi.Controllers
+namespace EduhubDotnet.API.Controllers
 {
   [Route("api/[controller]")]
   [ApiController]
@@ -19,7 +19,7 @@ namespace Mcloots.EduhubApi.EduhubApi.Controllers
     [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<ActionResult<List<ProgrammeListVm>>> GetAllProgrammes()
     {
-      var dtos = await _mediator.Send(new GetProgrammeListQuery());
+      var dtos = await _mediator.Send(new GetProgrammesListQuery());
       return Ok(dtos);
     }
   }

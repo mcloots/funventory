@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PERSONAL\\mcloots\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2B4F7B-D127-4768-BD77-172F3380E0BE}|libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\EduhubDotnet.Persistence.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\repositories\\programmegrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2B4F7B-D127-4768-BD77-172F3380E0BE}|libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\EduhubDotnet.Persistence.csproj|solutionrelative:libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\repositories\\programmegrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\contracts\\persistence\\iprogrammegrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|solutionrelative:libs\\eduhub-dotnet\\core\\eduhub.application\\contracts\\persistence\\iprogrammegrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\commands\\updateprogrammegroup\\updateprogrammegroupcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|solutionrelative:libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\commands\\updateprogrammegroup\\updateprogrammegroupcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\commands\\createprogrammegroup\\createprogrammegroupcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|solutionrelative:libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\commands\\createprogrammegroup\\createprogrammegroupcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\queries\\getprogrammegroupslist\\getprogrammegroupslistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|solutionrelative:libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\queries\\getprogrammegroupslist\\getprogrammegroupslistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED89FA5-981B-44F7-8B69-B85CB5B6FF31}|apps\\eduhub-api\\eduhub-api\\EduhubDotnet.API.csproj|c:\\personal\\mcloots\\apps\\eduhub-api\\eduhub-api\\controllers\\programmegroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED89FA5-981B-44F7-8B69-B85CB5B6FF31}|apps\\eduhub-api\\eduhub-api\\EduhubDotnet.API.csproj|solutionrelative:apps\\eduhub-api\\eduhub-api\\controllers\\programmegroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\commands\\updateprogrammegroup\\updateprogrammegroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|solutionrelative:libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\commands\\updateprogrammegroup\\updateprogrammegroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\commands\\createprogrammegroup\\createprogrammegroupcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|solutionrelative:libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\commands\\createprogrammegroup\\createprogrammegroupcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|solutionrelative:libs\\eduhub-dotnet\\core\\eduhub.application\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\commands\\updateprogrammegroup\\updateprogrammegroupcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|solutionrelative:libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\commands\\updateprogrammegroup\\updateprogrammegroupcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED89FA5-981B-44F7-8B69-B85CB5B6FF31}|apps\\eduhub-api\\eduhub-api\\EduhubDotnet.API.csproj|c:\\personal\\mcloots\\apps\\eduhub-api\\eduhub-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED89FA5-981B-44F7-8B69-B85CB5B6FF31}|apps\\eduhub-api\\eduhub-api\\EduhubDotnet.API.csproj|solutionrelative:apps\\eduhub-api\\eduhub-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED89FA5-981B-44F7-8B69-B85CB5B6FF31}|apps\\eduhub-api\\eduhub-api\\EduhubDotnet.API.csproj|c:\\personal\\mcloots\\apps\\eduhub-api\\eduhub-api\\startupextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED89FA5-981B-44F7-8B69-B85CB5B6FF31}|apps\\eduhub-api\\eduhub-api\\EduhubDotnet.API.csproj|solutionrelative:apps\\eduhub-api\\eduhub-api\\startupextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2B4F7B-D127-4768-BD77-172F3380E0BE}|libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\EduhubDotnet.Persistence.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\eduhubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2B4F7B-D127-4768-BD77-172F3380E0BE}|libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\EduhubDotnet.Persistence.csproj|solutionrelative:libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\eduhubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\queries\\getprogrammegroupslist\\getprogrammegroupslistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|solutionrelative:libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\queries\\getprogrammegroupslist\\getprogrammegroupslistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED89FA5-981B-44F7-8B69-B85CB5B6FF31}|apps\\eduhub-api\\eduhub-api\\EduhubDotnet.API.csproj|c:\\personal\\mcloots\\apps\\eduhub-api\\eduhub-api\\controllers\\programmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED89FA5-981B-44F7-8B69-B85CB5B6FF31}|apps\\eduhub-api\\eduhub-api\\EduhubDotnet.API.csproj|solutionrelative:apps\\eduhub-api\\eduhub-api\\controllers\\programmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\queries\\getprogrammegroupslist\\programmegrouplistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|solutionrelative:libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\queries\\getprogrammegroupslist\\programmegrouplistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\commands\\createprogrammegroup\\createprogrammegroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|solutionrelative:libs\\eduhub-dotnet\\core\\eduhub.application\\features\\programmegroups\\commands\\createprogrammegroup\\createprogrammegroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|solutionrelative:libs\\eduhub-dotnet\\core\\eduhub.application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF85115-4174-473E-8FCE-6A6205E024DC}|libs\\eduhub-dotnet\\core\\eduhub.application\\EduhubDotnet.Application.csproj|solutionrelative:libs\\eduhub-dotnet\\core\\eduhub.application\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F05F5BE-DB5A-4D57-A05A-AA1E2221B893}|libs\\eduhub-dotnet\\core\\eduhub.domain\\EduhubDotnet.Domain.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.domain\\entities\\programmegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F05F5BE-DB5A-4D57-A05A-AA1E2221B893}|libs\\eduhub-dotnet\\core\\eduhub.domain\\EduhubDotnet.Domain.csproj|solutionrelative:libs\\eduhub-dotnet\\core\\eduhub.domain\\entities\\programmegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F05F5BE-DB5A-4D57-A05A-AA1E2221B893}|libs\\eduhub-dotnet\\core\\eduhub.domain\\EduhubDotnet.Domain.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.domain\\entities\\programme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F05F5BE-DB5A-4D57-A05A-AA1E2221B893}|libs\\eduhub-dotnet\\core\\eduhub.domain\\EduhubDotnet.Domain.csproj|solutionrelative:libs\\eduhub-dotnet\\core\\eduhub.domain\\entities\\programme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2B4F7B-D127-4768-BD77-172F3380E0BE}|libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\EduhubDotnet.Persistence.csproj|c:\\personal\\mcloots\\libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2B4F7B-D127-4768-BD77-172F3380E0BE}|libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\EduhubDotnet.Persistence.csproj|solutionrelative:libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateProgrammeGroupCommand.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\UpdateProgrammeGroup\\UpdateProgrammeGroupCommand.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\UpdateProgrammeGroup\\UpdateProgrammeGroupCommand.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\UpdateProgrammeGroup\\UpdateProgrammeGroupCommand.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\UpdateProgrammeGroup\\UpdateProgrammeGroupCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T18:23:42.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateProgrammeGroupCommandHandler.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\CreateProgrammeGroup\\CreateProgrammeGroupCommandHandler.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\CreateProgrammeGroup\\CreateProgrammeGroupCommandHandler.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\CreateProgrammeGroup\\CreateProgrammeGroupCommandHandler.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\CreateProgrammeGroup\\CreateProgrammeGroupCommandHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:30:38.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Profiles\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\core\\eduhub.application\\Profiles\\MappingProfile.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Profiles\\MappingProfile.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\core\\eduhub.application\\Profiles\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T18:00:20.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProgrammeGroupController.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\apps\\eduhub-api\\eduhub-api\\Controllers\\ProgrammeGroupController.cs",
+              "RelativeDocumentMoniker": "apps\\eduhub-api\\eduhub-api\\Controllers\\ProgrammeGroupController.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\apps\\eduhub-api\\eduhub-api\\Controllers\\ProgrammeGroupController.cs",
+              "RelativeToolTip": "apps\\eduhub-api\\eduhub-api\\Controllers\\ProgrammeGroupController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAwwCEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:48:03.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetProgrammeGroupsListQueryHandler.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Queries\\GetProgrammeGroupsList\\GetProgrammeGroupsListQueryHandler.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Queries\\GetProgrammeGroupsList\\GetProgrammeGroupsListQueryHandler.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Queries\\GetProgrammeGroupsList\\GetProgrammeGroupsListQueryHandler.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Queries\\GetProgrammeGroupsList\\GetProgrammeGroupsListQueryHandler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAoAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T18:07:58.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IProgrammeGroupRepository.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Contracts\\Persistence\\IProgrammeGroupRepository.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\core\\eduhub.application\\Contracts\\Persistence\\IProgrammeGroupRepository.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Contracts\\Persistence\\IProgrammeGroupRepository.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\core\\eduhub.application\\Contracts\\Persistence\\IProgrammeGroupRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:40:27.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProgrammeGroupRepository.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\Repositories\\ProgrammeGroupRepository.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\Repositories\\ProgrammeGroupRepository.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\Repositories\\ProgrammeGroupRepository.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\Repositories\\ProgrammeGroupRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:43:40.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateProgrammeGroupCommandValidator.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\UpdateProgrammeGroup\\UpdateProgrammeGroupCommandValidator.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\UpdateProgrammeGroup\\UpdateProgrammeGroupCommandValidator.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\UpdateProgrammeGroup\\UpdateProgrammeGroupCommandValidator.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\UpdateProgrammeGroup\\UpdateProgrammeGroupCommandValidator.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T18:27:02.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateProgrammeGroupCommandValidator.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\CreateProgrammeGroup\\CreateProgrammeGroupCommandValidator.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\CreateProgrammeGroup\\CreateProgrammeGroupCommandValidator.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\CreateProgrammeGroup\\CreateProgrammeGroupCommandValidator.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\CreateProgrammeGroup\\CreateProgrammeGroupCommandValidator.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowB0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:30:50.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\apps\\eduhub-api\\eduhub-api\\Program.cs",
+              "RelativeDocumentMoniker": "apps\\eduhub-api\\eduhub-api\\Program.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\apps\\eduhub-api\\eduhub-api\\Program.cs",
+              "RelativeToolTip": "apps\\eduhub-api\\eduhub-api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T18:15:24.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateProgrammeGroupCommandHandler.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\UpdateProgrammeGroup\\UpdateProgrammeGroupCommandHandler.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\UpdateProgrammeGroup\\UpdateProgrammeGroupCommandHandler.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\UpdateProgrammeGroup\\UpdateProgrammeGroupCommandHandler.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\UpdateProgrammeGroup\\UpdateProgrammeGroupCommandHandler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T18:29:38.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StartupExtensions.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\apps\\eduhub-api\\eduhub-api\\StartupExtensions.cs",
+              "RelativeDocumentMoniker": "apps\\eduhub-api\\eduhub-api\\StartupExtensions.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\apps\\eduhub-api\\eduhub-api\\StartupExtensions.cs",
+              "RelativeToolTip": "apps\\eduhub-api\\eduhub-api\\StartupExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T18:15:20.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetProgrammeGroupsListQuery.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Queries\\GetProgrammeGroupsList\\GetProgrammeGroupsListQuery.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Queries\\GetProgrammeGroupsList\\GetProgrammeGroupsListQuery.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Queries\\GetProgrammeGroupsList\\GetProgrammeGroupsListQuery.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Queries\\GetProgrammeGroupsList\\GetProgrammeGroupsListQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T18:07:34.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProgrammeController.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\apps\\eduhub-api\\eduhub-api\\Controllers\\ProgrammeController.cs",
+              "RelativeDocumentMoniker": "apps\\eduhub-api\\eduhub-api\\Controllers\\ProgrammeController.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\apps\\eduhub-api\\eduhub-api\\Controllers\\ProgrammeController.cs",
+              "RelativeToolTip": "apps\\eduhub-api\\eduhub-api\\Controllers\\ProgrammeController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAIAwwBcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:44:36.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EduHubDbContext.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\EduHubDbContext.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\EduHubDbContext.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\EduHubDbContext.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\EduHubDbContext.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:39:54.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProgrammeGroupListVm.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Queries\\GetProgrammeGroupsList\\ProgrammeGroupListVm.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Queries\\GetProgrammeGroupsList\\ProgrammeGroupListVm.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Queries\\GetProgrammeGroupsList\\ProgrammeGroupListVm.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Queries\\GetProgrammeGroupsList\\ProgrammeGroupListVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T18:09:23.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateProgrammeGroupCommand.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\CreateProgrammeGroup\\CreateProgrammeGroupCommand.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\CreateProgrammeGroup\\CreateProgrammeGroupCommand.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\CreateProgrammeGroup\\CreateProgrammeGroupCommand.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\core\\eduhub.application\\Features\\ProgrammeGroups\\Commands\\CreateProgrammeGroup\\CreateProgrammeGroupCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:30:13.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Programme.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.domain\\Entities\\Programme.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\core\\eduhub.domain\\Entities\\Programme.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.domain\\Entities\\Programme.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\core\\eduhub.domain\\Entities\\Programme.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:51:10.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ValidationException.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Exceptions\\ValidationException.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\core\\eduhub.application\\Exceptions\\ValidationException.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\Exceptions\\ValidationException.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\core\\eduhub.application\\Exceptions\\ValidationException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:52:35.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationServiceRegistration.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\ApplicationServiceRegistration.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\core\\eduhub.application\\ApplicationServiceRegistration.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.application\\ApplicationServiceRegistration.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\core\\eduhub.application\\ApplicationServiceRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:53:03.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProgrammeGroup.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.domain\\Entities\\ProgrammeGroup.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\core\\eduhub.domain\\Entities\\ProgrammeGroup.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\core\\eduhub.domain\\Entities\\ProgrammeGroup.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\core\\eduhub.domain\\Entities\\ProgrammeGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:51:08.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PersistenceServiceRegistration.cs",
+              "DocumentMoniker": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\PersistenceServiceRegistration.cs",
+              "RelativeDocumentMoniker": "libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\PersistenceServiceRegistration.cs",
+              "ToolTip": "C:\\PERSONAL\\mcloots\\libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\PersistenceServiceRegistration.cs",
+              "RelativeToolTip": "libs\\eduhub-dotnet\\infrastructure\\eduhub.persistence\\PersistenceServiceRegistration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:26:59.657Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

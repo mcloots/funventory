@@ -2,7 +2,7 @@ using EduhubDotnet.Application;
 using EduhubDotnet.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace Eduhub.API
+namespace EduhubDotnet.API
 {
     public static class StartupExtensions
     {
