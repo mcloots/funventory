@@ -1,5 +1,6 @@
 using AutoMapper;
 using EduhubDotnet.Application.Features.ProgrammeGroups.Commands.CreateProgrammeGroup;
+using EduhubDotnet.Application.Features.ProgrammeGroups.Commands.DeleteProgrammeGroup;
 using EduhubDotnet.Application.Features.ProgrammeGroups.Commands.UpdateProgrammeGroup;
 using EduhubDotnet.Application.Features.ProgrammeGroups.Queries.GetProgrammeGroupsList;
 using EduhubDotnet.Application.Features.Programmes.Queries.GetProgrammesList;
@@ -16,6 +17,7 @@ namespace EduhubDotnet.Application.Profiles
       CreateMap<ProgrammeGroup, ProgrammeGroupListVm>().ReverseMap();
       CreateMap<ProgrammeGroup, CreateProgrammeGroupCommand>().ReverseMap();
       CreateMap<ProgrammeGroup, UpdateProgrammeGroupCommand>().ReverseMap();
+      CreateMap<ProgrammeGroup, DeleteProgrammeGroupCommand>().ReverseMap();
     }
   }
 }

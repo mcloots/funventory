@@ -1,4 +1,5 @@
 using EduhubDotnet.Application.Features.ProgrammeGroups.Commands.CreateProgrammeGroup;
+using EduhubDotnet.Application.Features.ProgrammeGroups.Commands.DeleteProgrammeGroup;
 using EduhubDotnet.Application.Features.ProgrammeGroups.Commands.UpdateProgrammeGroup;
 using EduhubDotnet.Application.Features.ProgrammeGroups.Queries.GetProgrammeGroupsList;
 using EduhubDotnet.Application.Features.Programmes.Queries.GetProgrammesList;
@@ -40,6 +41,17 @@ namespace EduhubDotnet.API.Controllers
     public async Task<ActionResult> Update([FromBody] UpdateProgrammeGroupCommand updateProgrammeGroupCommand)
     {
       await _mediator.Send(updateProgrammeGroupCommand);
+      return NoContent();
+    }
+
+    [HttpDelete("{id}", Name = "DeleteProgrammeGroup")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesDefaultResponseType]
+    public async Task<ActionResult> Delete(Guid id)
+    {
+      var deleteProgrammeGroupCommand = new DeleteProgrammeGroupCommand() { Id = id };
+      await _mediator.Send(deleteProgrammeGroupCommand);
       return NoContent();
     }
   }
