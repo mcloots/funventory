@@ -12,7 +12,8 @@ namespace EduhubDotnet.Application.Profiles
   {
     public MappingProfile()
     {
-      CreateMap<Programme, ProgrammeListVm>().ReverseMap();
+      CreateMap<Programme, ProgrammeListVm>().ForMember(dest => dest.ProgrammeGroup,
+        opt => opt.MapFrom(src => (src.ProgrammeGroup != null) ? src.ProgrammeGroup.Description : "")).ReverseMap();
 
       CreateMap<ProgrammeGroup, ProgrammeGroupListVm>().ReverseMap();
       CreateMap<ProgrammeGroup, CreateProgrammeGroupCommand>().ReverseMap();

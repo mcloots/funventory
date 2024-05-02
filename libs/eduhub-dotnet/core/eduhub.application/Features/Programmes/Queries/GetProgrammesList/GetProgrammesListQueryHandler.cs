@@ -12,10 +12,10 @@ namespace EduhubDotnet.Application.Features.Programmes.Queries.GetProgrammesList
 {
   public class GetProgrammesListQueryHandler : IRequestHandler<GetProgrammesListQuery, List<ProgrammeListVm>>
   {
-    private readonly IAsyncRepository<Programme> _programmeRepository;
+    private readonly IProgrammeRepository _programmeRepository;
     private readonly IMapper _mapper;
 
-    public GetProgrammesListQueryHandler(IMapper mapper, IAsyncRepository<Programme> programmeRepository)
+    public GetProgrammesListQueryHandler(IMapper mapper, IProgrammeRepository programmeRepository)
     {
       _mapper = mapper;
       _programmeRepository = programmeRepository;
@@ -23,7 +23,7 @@ namespace EduhubDotnet.Application.Features.Programmes.Queries.GetProgrammesList
 
     public async Task<List<ProgrammeListVm>> Handle(GetProgrammesListQuery request, CancellationToken cancellationToken)
     {
-      var allEvents = (await _programmeRepository.ListAllAsync()).OrderBy(x => x.Name);
+      var allEvents = (await _programmeRepository.GetAll(true)).OrderBy(x => x.Name);
       return _mapper.Map<List<ProgrammeListVm>>(allEvents);
     }
   }
